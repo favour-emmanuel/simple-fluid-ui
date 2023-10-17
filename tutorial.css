@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tutorial-cover{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.tutorial-container{
+    background: url(./assets/e-learn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.tutorial-hero{
+    height: 100vh;
+    padding: 30px 40px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #0fffaf;
+    text-align: center;
+}
+
+.frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+.center{
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    width: 680px;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo a{
+    text-decoration: underline;
+    color: #0fffaf;
+}

@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-cover{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.main-container{
+    background: url(./assets/e-learn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero{
+    height: 100vh;
+    padding: 25px 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li{
+    padding: 0 8px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+li a{
+    text-decoration: none;
+    color: #0fffaf;
+}
+
+.logo{
+    font-size: 22px;
+    font-weight: 700;
+}
+.logo a{
+    text-decoration: none;
+    color: #0fffaf;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 38px;
+    font-weight: 800;
+    color: #ffff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.h1 span{
+    color: #0fffaf;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn button{
+    padding: 16px 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0fffaf;
+    font-weight: 500;
+    font-size: 16px;
+    animation-name: roboto;
+    animation-duration: 9s;
+}
+
+.btn a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #ffff;
+}
+
+.btn button a:hover{
+    color: #ffff;
+}
+
+.alert{
+    position: fixed;
+    bottom: 13%;
+    left: 38%;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #0fffaf;
+    color: #ffff;
+    border-radius: 15px;
+    padding: 10px;
+    animation-name: alertDiv;
+    animation-duration: 5s;
+}
+
+@keyframes alertDiv{
+    0%{
+        position: absolute;
+        left: -30%;
+    }
+    25%{
+        position: absolute;
+        left: -30%;
+    }
+    50%{
+        position: absolute;
+
+    }
+    100%{
+        position: absolute;
+
+    }
+}
+
+@keyframes roboto{
+    0%{
+       position: absolute;
+       left: -90%;
+       top: -50%;
+    }
+    25%{
+        position: absolute;
+        left: -90%;
+        top: -50%;
+        background-color: #ff805a;
+    }
+    50%{
+        background-color: #ff048a;
+    }
+    75%{
+        background-color: black;
+    }
+    100%{
+        background-color: rgb(0, 255, 195);
+    }
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #0fffaf;
+}
+
+
+
+
+/* media query */
+
+@media screen and (max-width: 600px) {
+    .hero-cover{
+        min-height: 530px;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .main-container{
+        background: url(./assets/e-learn.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 530px;
+    }
+
+    .hero{
+        padding: 10px 15px;
+    }
+    
+    ul, .right{
+    display: none;
+   }
+
+   .h1{
+    font-size: 12px;
+    font-weight: 800;
+    color: #0fffaf;
+    text-align: left;
+    margin-top: 50px;
+    width: 48%;
+}
+
+.h1 span{
+    color: #ffff;
+}
+
+.btn{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+.btn button{
+    padding: 14px 40px;
+}
+    
+}
+
+@media screen and (max-width: 400px) {
+    .hero-cover{
+        height: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .main-container{
+        background: url(./assets/e-learn.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: auto;
+    }
+
+    .hero{
+        height: 80vh;
+        padding: 10px 15px;
+    }
+    
+    ul, .right{
+    display: none;
+   }
+
+   .h1{
+    font-size: 12px;
+    font-weight: 800;
+    color: #0fffaf;
+    margin-top: 50px;
+    width: 55%;
+}
+
+.h1 span{
+    color: #ffff;
+}
+
+.btn{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+.btn button{
+    padding: 14px 40px;
+}
+}

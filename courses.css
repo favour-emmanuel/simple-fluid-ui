@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.courses-container{
+    height: 100vh;
+    background: url(./assets/e-learn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;;
+}
+
+.courses-cover{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.courses-hero{
+    height: 100vh;
+    padding: 30px 40px;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #0fffaf;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0fffaf;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.courses-control{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 400px;
+    width: 350px;
+    padding: 40px 0;
+    color: #ffff;
+    border-radius: 10px;
+}
+
+input{
+    border-radius: 5px;
+    outline: 1px solid #0fffaf;
+    margin: 10px 15px;
+}
+
+h4{
+    display: inline;
+    font-weight: 300;
+}
+select{
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    outline: 1px solid #0fffaf;
+    color: #ffff;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn button{
+    padding: 16px 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #0fffaf;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid #0fffaf;
+    color: #ffff;
+}
+
+.logo{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.logo a{
+    text-decoration: underline;
+    color: #0fffaf;
+}
